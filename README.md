@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - NFT Preview Card solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [NFT Preview Card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
 ### Screenshot
@@ -8,7 +8,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 - Solution URL: https://github.com/oregano12/oregano12.QR-code.io/blob/main/index.html
-- Live Site URL: https://oregano12.github.io/oregano12.QR-code.io/
+- Live Site URL: https://oregano12.github.io/oregano12.NFT.io/
 
 ## My process
 ### Built with
