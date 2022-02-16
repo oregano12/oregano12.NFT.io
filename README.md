@@ -4,10 +4,10 @@ This is a solution to the [NFT Preview Card challenge on Frontend Mentor](https:
 
 ## Overview
 ### Screenshot
-![image](https://github.com/oregano12/oregano12.QR-code.io/blob/main/Screenshot.png)
+![image](https://github.com/oregano12/oregano12.NFT.io/blob/main/screenshot.png)
 
 ### Links
-- Solution URL: https://github.com/oregano12/oregano12.QR-code.io/blob/main/index.html
+- Solution URL: https://github.com/oregano12/oregano12.NFT.io/blob/main/index.html
 - Live Site URL: https://oregano12.github.io/oregano12.NFT.io/
 
 ## My process
@@ -17,21 +17,49 @@ This is a solution to the [NFT Preview Card challenge on Frontend Mentor](https:
 - Flexbox
 
 ### What I learned
-I learned how to apply some basic but readable flexbox. I'm particularly happy with how the .container turned out.
+I learned how to apply basic hover functions. I'm happy with how the hover turned out on the main image.
 
 ```css
-.container{
-    width: 280px;
-    margin: 0 auto;
-    background-color: hsl(0, 0%, 100%);
-    padding: 16px;
-    border-radius: 18px;
-    text-align: center;
-}
+  .image {
+    position: relative;
+  }
+  
+  .mainImg {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image div {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  
+  .image div:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .image div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image .mainImg:hover + .hover-active {
+    display: block;
+  }
 ```
 
 ### Continued development
-I wanna keep improving my layout knowledge. I still feel like I have much to learn in this regard.
+I wanna keep improving my hover knowledge. I still feel like I have much to learn in this regard.
 
 ## Author
 Oregano12
